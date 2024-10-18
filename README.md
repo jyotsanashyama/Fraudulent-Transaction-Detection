@@ -4,8 +4,8 @@ This project aims to develop a machine learning model to detect fraudulent trans
 
 # DATASET
 
-The dataset contains 6,362,620 rows and 10 columns of transaction data.
-[Download the Dataset](https://drive.google.com/file/d/1SiPNbeN3Bj7S4nnz2ov2Fv64Nv5W9dtb/view?usp=sharing)  
+The dataset contains 6,362,620 rows and 10 columns of transaction data.  
+[Download the Dataset](https://drive.google.com/file/d/1SiPNbeN3Bj7S4nnz2ov2Fv64Nv5W9dtb/view?usp=sharing)   
 
 Key columns in the dataset are:  
 1. type - CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER.  
