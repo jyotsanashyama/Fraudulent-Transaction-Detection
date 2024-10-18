@@ -19,29 +19,29 @@ To understand the distribution of transaction types and fraud occurrences, the f
 2. Plotted count plot for column - 'type' and 'isFraud'.  
    
 Observation is : 
-a). for type columns:
--> CASH_OUT has the highest number of transactions.
--> DEBIT has the lowest number of transactions.
-b). for isFraud: Fraudulent transactions are greater than non-fraudulent transactions.
+a). for type columns:  
+-> CASH_OUT has the highest number of transactions.  
+-> DEBIT has the lowest number of transactions.  
+b). for isFraud: Fraudulent transactions are greater than non-fraudulent transactions.  
 
 # DATA PREPROCESSING
 
-1. Handling Categorical Data:
-   -> The 'type' column was encoded using One-Hot Encoding.
-2. Handling Imbalanced Data:
-   -> Since the dataset is highly imbalanced, SMOTE (Synthetic Minority Over-sampling     Technique) was applied to balance the classes.
-3. Sampling a Subset of Data:
-   -> To make the process more efficient, a 10% subset of the resampled data was used for model training and evaluation.
-4. Splitting the Data:
-   -> The data was split into 80% for training and 20% testing sets.
-5. Scaling the Features:
-   -> Features were scaled using StandardScaler to normalize the data for optimal model performance.
+1. Handling Categorical Data:  
+   -> The 'type' column was encoded using One-Hot Encoding.  
+2. Handling Imbalanced Data:  
+   -> Since the dataset is highly imbalanced, SMOTE (Synthetic Minority Over-sampling     Technique) was applied to balance the classes.  
+3. Sampling a Subset of Data:  
+   -> To make the process more efficient, a 10% subset of the resampled data was used for model training and evaluation.  
+4. Splitting the Data:  
+   -> The data was split into 80% for training and 20% testing sets.  
+5. Scaling the Features:  
+   -> Features were scaled using StandardScaler to normalize the data for optimal model performance.  
 
 # MODEL TRAINING
 
-A Logistic Regression model was trained using the resampled and scaled dataset. The initial model achieved an accuracy of 96.35% on the test data.
--> Confusion Matrix was created. 
--> Classification Report: Precision, Recall, and F1-Score were calculated.
+A Logistic Regression model was trained using the resampled and scaled dataset. The initial model achieved an accuracy of 96.35% on the test data.  
+-> Confusion Matrix was created.  
+-> Classification Report: Precision, Recall, and F1-Score were calculated.  
 
 # Hyperparameter Tuning
 
