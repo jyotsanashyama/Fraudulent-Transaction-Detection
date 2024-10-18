@@ -18,8 +18,8 @@ To understand the distribution of transaction types and fraud occurrences, the f
 1. Checked for null values.  
 2. Plotted count plot for column - 'type' and 'isFraud'.  
    
-Observation is : 
-a). for type columns:  
+Observation is :  
+a). for type columns:   
 -> CASH_OUT has the highest number of transactions.  
 -> DEBIT has the lowest number of transactions.  
 b). for isFraud: Fraudulent transactions are greater than non-fraudulent transactions.  
